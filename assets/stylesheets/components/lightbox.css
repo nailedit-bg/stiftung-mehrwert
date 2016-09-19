@@ -1,0 +1,9 @@
+.lightbox-wrap {
+  display: none;
+}
+.lightbox-wrap.show {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
