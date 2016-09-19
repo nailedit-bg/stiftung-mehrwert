@@ -19,7 +19,6 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 65px;
 }
 
 header a {
@@ -31,4 +30,16 @@ header a {
 
 header a.active, header a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px)
+{
+  /* reducing logo's size */
+  header img {
+    width: 200px;
+  }
+
+  header .content {
+    flex-direction: column;
+  }
 }

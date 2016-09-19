@@ -40,9 +40,23 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
 
+.lightbox-wrap h4 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.lightbox-wrap p {
+  margin-top: 0;
+}
+
 .lightbox-wrap .close {
   text-align: right;
 }
+
+.lightbox-wrap .close img {
+  width: 40px;
+}
+
 
 .lightbox-wrap .close:hover {
   cursor: pointer;

@@ -1,20 +1,22 @@
 #container section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0; /* safari bug fixes */
   text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+
+
+@media (max-width: 500px)
+{
+  #container section {
+    text-align: inherit;
+  }
 }

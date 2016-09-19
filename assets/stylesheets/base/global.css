@@ -10,3 +10,10 @@ html, body {
 .newline {
   white-space: pre-line;
 }
+
+@media (max-width: 900px)
+{
+  #container section, footer {
+    padding: 10px;
+  }
+}

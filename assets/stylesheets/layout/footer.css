@@ -10,6 +10,8 @@ footer {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+
+  padding-bottom: 30px;
 }
 
 footer .content {
@@ -18,8 +20,10 @@ footer .content {
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer .column {
   flex-basis: 30%;
+  min-width: 250px;
 }

@@ -1,7 +1,18 @@
 section#activities .row {
-  margin: 30px 0 30px 0;
+  margin: 30px 5px 30px 5px;
 }
 
 section#activities .row > :first-child {
   margin-right: 30px;
+}
+
+@media (max-width: 900px)
+{
+  section#activities .row {
+    flex-direction: column;
+  }
+
+  section#activities .second.row {
+    flex-direction: column-reverse;
+  }
 }

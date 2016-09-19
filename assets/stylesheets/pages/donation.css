@@ -9,10 +9,18 @@ section#donation .columns {
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 section#donation .column {
   flex-basis: 40%;
   border: 1px solid white;
   padding: 10px 30px 10px 30px;
+}
+
+@media (max-width: 900px)
+{
+  section#donation .columns {
+    flex-direction: column;
+  }
 }
