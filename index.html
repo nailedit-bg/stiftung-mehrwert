@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mehrwert Stiftung</title>
+  <title>Stiftung Mehrwert</title>
   <link href="assets/stylesheets/application.css" rel="stylesheet" type="text/css">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
   <meta charset="utf-8">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -49,10 +68,11 @@
         </p>
 
         <!-- Team -->
-        <a class="lightbox-open" content="team">Holen Sie sich das Team kennen !</a>
+        <a class="button lightbox-open" content="team">Holen Sie sich das Team kennen !</a>
         <!-- Lightbox -->
         <div class="lightbox-wrap" id="team">
           <div class="lightbox">
+            <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
             <div>
               <h3>Team</h3>
               <h4>Stiftungsrat</h4>
@@ -85,20 +105,24 @@
     </section>
 
     <!-- Activities -->
-    <section>
+    <section id="activities">
       <div class="content">
         <!-- Alpha -->
         <div>
-          <h3>Alpha Bulgarien</h3>
-          <p>
-            Die stiftung mehrwert hat im Jahr 2009 das Tochterunternehmen Stiftung Alpha Bulgarien www.alphabg.org mit Sitz in Gorna Orjachoviza, Zentralbulgarien, ins Leben gerufen. Sie bildet das rechtliche Gefäss für den Aufbau, die Verbreitung und die Koordination der Alpha Projekte im Land sowie für das Übersetzen, Verlegen und den Verkauf aller elektronischen und gedruckten Alpha Ressourcen.
-          </p>
-          <a class="lightbox-open" content="alpha">Mehr...</a>
-
+          <div class="row">
+            <div>
+              <h3>Alpha Bulgarien</h3>
+              <p>
+                Die stiftung mehrwert hat im Jahr 2009 das Tochterunternehmen Stiftung Alpha Bulgarien www.alphabg.org mit Sitz in Gorna Orjachoviza, Zentralbulgarien, ins Leben gerufen. Sie bildet das rechtliche Gefäss für den Aufbau, die Verbreitung und die Koordination der Alpha Projekte im Land sowie für das Übersetzen, Verlegen und den Verkauf aller elektronischen und gedruckten Alpha Ressourcen.
+              </p>
+              <a class="button lightbox-open" content="alpha">Mehr</a>
+            </div>
+            <div><img src="assets/images/activities/alpha_logo.jpg"></div>
+          </div>
           <!-- Lightbox -->
           <div class="lightbox-wrap" id="alpha">
             <div class="lightbox">
-              <a class="lightbox-close">X</a>
+              <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
               <div>
                 <h3>Stiftung Alpha Bulgarien</h3>
                 <p>
@@ -129,14 +153,19 @@
 
         <!-- Shelters -->
         <div>
-          <h3>Notunterkunft</h3>
-          <p></p>
-          <a class="lightbox-open" content="shelters">Mehr...</a>
+          <div class="row">
+            <div><img src="assets/images/activities/shelter.jpg"></div>
+            <div>
+              <h3>Notunterkunft</h3>
+              <p>Lorem ipsum dorem Ciceronus Catem rosum belec.</p>
+              <a class="button lightbox-open" content="shelters">Mehr</a>
+            </div>
+          </div>
 
           <!-- Lightbox -->
           <div class="lightbox-wrap" id="shelters">
             <div class="lightbox">
-              <a class="lightbox-close">X</a>
+              <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
               <div>
                 <h3>Notunterkunft</h3>
                 <p>
@@ -152,11 +181,16 @@
 
         <!-- Youth -->
         <div>
-          <h3>Jugend</h3>
-          <h4>Kavlak - ein Campgelände für Kinder- und Jugendlager</h4>
-          <p>
-            Das Campgelände der stiftung mehrwert in Kavlak steht für Aktivitäten von Einheimischen wie auch für Jugendliche aus dem Westen offen. Es finden verschiedene Freizeiten, Kinder-, Teenager- und Jugendlager mit grösseren und kleineren Gruppen statt, unter anderem auch Lager für Waisenkinder. Unser Lagerplatz im ländlichen Kavlak wird für viele zu einem Ort, an dem sie neue Freunde kennenlernen, alte Freundschaften vertiefen und sich für eine Veränderung in ihrem Leben entscheiden.
-          </p>
+          <div class="row">
+            <div>
+              <h3>Jugend</h3>
+              <h4>Kavlak - ein Campgelände für Kinder- und Jugendlager</h4>
+              <p>
+                Das Campgelände der stiftung mehrwert in Kavlak steht für Aktivitäten von Einheimischen wie auch für Jugendliche aus dem Westen offen. Es finden verschiedene Freizeiten, Kinder-, Teenager- und Jugendlager mit grösseren und kleineren Gruppen statt, unter anderem auch Lager für Waisenkinder. Unser Lagerplatz im ländlichen Kavlak wird für viele zu einem Ort, an dem sie neue Freunde kennenlernen, alte Freundschaften vertiefen und sich für eine Veränderung in ihrem Leben entscheiden.
+              </p>
+            </div>
+            <div><img src="assets/images/activities/youth_camp.jpg"></div>
+          </div>
         </div>
       </div>
     </section>

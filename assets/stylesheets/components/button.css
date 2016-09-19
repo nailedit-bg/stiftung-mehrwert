@@ -2,7 +2,7 @@
     background-color: white;
     color: #808080;
     border: 1px solid #808080;
-    padding: 15px 32px;
+    padding: 10px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -19,5 +19,3 @@
 .button:active {
     font-weight: bolder;
 }
-
-

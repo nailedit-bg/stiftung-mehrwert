@@ -13,7 +13,8 @@
 @import 'pages/donation.css';
 @import 'pages/banner.css';
 @import 'pages/activity-banner.css';
+@import 'pages/activities.css';
 
 @import 'components/lightbox.css';
-
 @import 'components/button.css';
+@import 'components/grid.css';

@@ -1,0 +1,7 @@
+section#activities .row {
+  margin: 30px 0 30px 0;
+}
+
+section#activities .row > :first-child {
+  margin-right: 30px;
+}

@@ -16,7 +16,7 @@ document.body.onclick = function(e) {
   // Show lightbox if click on the close button
   if(target.classList.contains("lightbox-close")) {
     document.body.classList.remove("noscroll");
-    target.parentElement.parentElement.classList.remove("show");
+    target.parentElement.parentElement.parentElement.classList.remove("show");
   }
 
   // Show lightbox if click outiside of it
