@@ -1,4 +1,14 @@
-@import 'layout/base.css';
+@import 'base/normalize.css';
+@import 'base/reset.css';
+@import 'base/global.css';
+
+@import 'layout/body.css';
+@import 'layout/header.css';
+@import 'layout/container.css';
+@import 'layout/section.css';
+@import 'layout/footer.css';
+
+@import 'pages/donation.css';
 
 @import 'components/lightbox.css';
 

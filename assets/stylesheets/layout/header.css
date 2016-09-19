@@ -1,0 +1,13 @@
+header {
+  width: 1000px;
+  display: flex;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+          justify-content: space-between;
+          align-items: center;
+}
+
+header a {
+  padding: 5px;
+}

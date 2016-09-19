@@ -1,0 +1,10 @@
+section#donation .columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#donation .column {
+  flex: 1;
+}
