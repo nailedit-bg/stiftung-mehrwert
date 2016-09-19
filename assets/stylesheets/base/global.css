@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
 .content {
   width: 1000px;
 }

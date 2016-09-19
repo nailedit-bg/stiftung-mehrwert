@@ -1,0 +1,12 @@
+section#activity-banner {
+  background-image: url("../../images/layout/activity.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.3em;
+}

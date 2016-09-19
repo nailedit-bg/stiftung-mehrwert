@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
 @import 'base/normalize.css';
 @import 'base/reset.css';
 @import 'base/global.css';
@@ -9,6 +11,8 @@
 @import 'layout/footer.css';
 
 @import 'pages/donation.css';
+@import 'pages/banner.css';
+@import 'pages/activity-banner.css';
 
 @import 'components/lightbox.css';
 
