@@ -29,13 +29,15 @@
 
   <!-- Header -->
   <header>
-    <div class="content">
-      <div><img src="assets/images/layout/logo.png"></div>
-      <div class="links">
-        <a title="home" href="#">Home</a>
-        <a title="about" href="#">About</a>
-        <a title="activites" href="#">Activities</a>
-        <a title="donation" href="#">Donation</a>
+    <div class="wrap">
+      <div class="content">
+        <div><img src="assets/images/layout/logo.png"></div>
+        <div class="links" data-gumshoe>
+          <a data-scroll title="home" href="#home">Home</a>
+          <a data-scroll title="about" href="#about">About</a>
+          <a data-scroll title="activites" href="#activities">Activities</a>
+          <a data-scroll title="donation" href="#donation">Donation</a>
+        </div>
       </div>
     </div>
   </header>
@@ -43,14 +45,14 @@
   <div id="container">
 
     <!-- Banner -->
-    <section id="banner">
+    <section id="home">
       <div class="content">
         <h2>Hauptanliegen und Engagement - Wofür unser Herz schlägt!</h2>
       </div>
     </section>
 
     <!-- About -->
-    <section>
+    <section id="about">
       <div class="content">
         <p>
           Als Stiftung bündeln wir unsere Kräfte auf die Balkanländer und hier besonders auf den Bau und die Förderung von Lokalkirchen in Bulgarien. Prioritär koordiniert die Stiftung den Aufbau und die Verbreitung von Alpha Kursen in Bulgarien und übersetzt, produziert und verlegt alle Alpha Ressourcen auf Bulgarisch. Zu diesem Zweck wurde im September 2009 die Stiftung Alpha Bulgarien mit Sitz in Gorna Orjachoviza (BG) ins Leben gerufen. Initiativen in den Nachbarländern werden unterstützt.
@@ -271,7 +273,10 @@
     </div>
   </footer>
 
+  <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="vendor/javascripts/gumshoe.min.js"></script>
   <script type="text/javascript" src="assets/javascripts/functions.js"></script>
   <script type="text/javascript" src="assets/javascripts/lightbox.js"></script>
+  <script type="text/javascript" src="assets/javascripts/header.js"></script>
 </body>
 </html>

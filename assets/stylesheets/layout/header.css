@@ -11,6 +11,13 @@ header .content {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+header .wrap {
+  background-color: white;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   display: -webkit-box;
