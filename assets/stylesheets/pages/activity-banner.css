@@ -7,6 +7,8 @@ section#activity-banner {
   color: #fff;
   height: 400px;
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 1.3em;
 }

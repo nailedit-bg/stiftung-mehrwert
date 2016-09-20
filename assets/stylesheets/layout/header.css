@@ -49,6 +49,9 @@ header .links a.active, header .links a:hover {
   }
 
   header .content {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
