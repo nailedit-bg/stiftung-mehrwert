@@ -44,3 +44,8 @@ section#donation .column {
                     align-items: center;
   }
 }
+@media (max-width: 500px) {
+  section#donation .column {
+    width: 200px;
+  }
+}
