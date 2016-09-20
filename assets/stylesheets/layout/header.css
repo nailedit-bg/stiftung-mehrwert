@@ -28,7 +28,7 @@ header .wrap {
           justify-content: center;
 }
 
-header a {
+header .links a {
   padding: 0 0 0 40px;
   text-decoration: none;
   color: black;

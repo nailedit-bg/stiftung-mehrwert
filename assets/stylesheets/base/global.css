@@ -4,6 +4,15 @@ html, body {
   font-weight: 300;
 }
 
+h2 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 1.7em;
+}
+
+h3 {
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
 .content {
   width: 1000px;
 }

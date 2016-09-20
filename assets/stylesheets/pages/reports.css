@@ -1,0 +1,17 @@
+header {
+  position: inherit;
+}
+
+section#reports .content div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#reports h2 {
+  text-align: center;
+}
+
+section#reports a {
+  margin: 10px;
+}
