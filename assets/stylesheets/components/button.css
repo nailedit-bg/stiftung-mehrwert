@@ -8,7 +8,7 @@
     display: inline-block;
     font-size: 1em;
     transition: all 0.5s;
-    cursor: pointer;
+    cursor: auto;
 
 }
 .button:hover{
@@ -16,6 +16,16 @@
     color: white;
 }
 
-.button:active {
-    font-weight: bolder;
+.header-button{
+    padding: 0 0 0 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    cursor: auto;
+    transition: all 0.3s;
+
+}
+
+.header-button:hover{
+    border-bottom: 4px solid #003366;
 }
