@@ -25,11 +25,11 @@ section#donation .columns {
 }
 
 section#donation .column {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
   border: 1px solid white;
   padding: 10px 30px 10px 30px;
+  width: 400px;
 }
+
 
 @media (max-width: 900px)
 {
@@ -38,5 +38,9 @@ section#donation .column {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                        -ms-grid-row-align: center;
+                    align-items: center;
   }
 }
