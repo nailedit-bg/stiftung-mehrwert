@@ -7,6 +7,13 @@ section#donation {
   color: white;
 }
 
+section#donation img {
+  width: 120px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+
 section#donation .columns {
   display: -webkit-box;
   display: -webkit-flex;
