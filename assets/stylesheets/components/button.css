@@ -8,14 +8,10 @@
     display: inline-block;
     font-size: 1em;
     transition: all 0.5s;
-    cursor: pointer;
+    cursor: auto;
 
 }
 .button:hover{
     background-color: #808080;
     color: white;
-}
-
-.button:active {
-    font-weight: bolder;
 }

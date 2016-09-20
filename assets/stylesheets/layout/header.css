@@ -13,6 +13,8 @@ header .content {
 header {
   position: fixed;
   width: 100%;
+  padding-bottom: 2px;
+  background-color: white;
   border-bottom: 1px solid #d3d3d3;
 }
 
@@ -29,14 +31,15 @@ header .wrap {
 }
 
 header .links a {
-  padding: 0 0 0 40px;
+  margin: 0 0 0 40px;
   text-decoration: none;
   color: black;
   font-size: 1.2em;
+  transition: 0.4s;
 }
 
 header a.active, header a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #003366;
 }
 
 @media (max-width: 900px)
