@@ -15,17 +15,3 @@
     background-color: #808080;
     color: white;
 }
-
-.header-button{
-    padding: 0 0 0 40px;
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    cursor: auto;
-    transition: all 0.3s;
-
-}
-
-.header-button:hover{
-    border-bottom: 4px solid #003366;
-}
