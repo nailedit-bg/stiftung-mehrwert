@@ -23,7 +23,7 @@ h3 {
 
 @media (max-width: 900px)
 {
-  #container section, footer {
+  #container section .content, footer .content {
     padding: 10px;
   }
 }
