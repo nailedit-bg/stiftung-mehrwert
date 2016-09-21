@@ -23,13 +23,6 @@
 }
 
 .lightbox-wrap .lightbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 80%;
   background: #fff;
   max-height: 100%;
@@ -58,12 +51,11 @@
 }
 
 .lightbox-wrap .close {
-  text-align: right;
-  padding: 5px;
+  float: right;
 }
 
 .lightbox-wrap .close img {
-  width: 30px;
+  width: 50px;
 }
 
 .lightbox-wrap .close:hover {
@@ -71,5 +63,7 @@
 }
 
 .lightbox-wrap .banner {
-  width: 100%;
+  background: url("../../images/layout/team.png");
+  background-attachment: cover;
+  height: 375px;
 }

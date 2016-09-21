@@ -21,4 +21,8 @@ section#activities .row > :first-child {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+
+  section#activities .img {
+    margin-top: 30px;
+  }
 }
