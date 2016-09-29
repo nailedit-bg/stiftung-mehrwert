@@ -1,10 +1,10 @@
 section#donation {
-  background-image: url("../../images/layout/ardoise.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center bottom;
+  background-color: #003273;
   color: white;
+}
+
+section#donation a {
+  color: #BABABA;
 }
 
 section#donation img {
