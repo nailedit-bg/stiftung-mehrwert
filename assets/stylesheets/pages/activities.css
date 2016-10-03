@@ -1,28 +1,14 @@
-section#activities .row {
-  margin: 30px 5px 30px 5px;
-}
-
-section#activities .row > :first-child {
-  margin-right: 30px;
-}
-
-@media (max-width: 900px)
-{
-  section#activities .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  section#activities .second.row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-
-  section#activities .img {
-    margin-top: 30px;
-  }
+section#activities {
+  background-image: url("../../images/layout/activity.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  height: 400px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3em;
 }
