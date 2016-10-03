@@ -41,6 +41,18 @@ header .links a.active, header .links a:hover {
   border-bottom: 2px solid #003366;
 }
 
+header .flags img {
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+header .flags {
+  position: absolute;
+  right: 10px;
+  top: 22px;
+}
+
+
 @media (max-width: 900px)
 {
   /* reducing logo's size */

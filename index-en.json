@@ -1,0 +1,96 @@
+{
+  "application": {
+    "more": "More"
+  },
+  "header":
+  {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "donation": "Donation"
+  },
+  "home":
+  {
+    "motto": "Motto"
+  },
+  "about":
+  {
+    "title-1": "About us",
+    "p-1": "Lorem",
+    "p-2": "Lorem",
+    "p-3": "Lorem",
+    "title-2": "Goals",
+    "p-4": "Lorem",
+    "reports": "Reports",
+    "team": {
+      "button": "Team",
+      "title": "Team",
+      "subtitle-1": "Concil",
+      "subtitle-2": "Lorem",
+      "li-1": "",
+      "li-2": "",
+      "li-3": "",
+      "li-4": "",
+      "li-5": "",
+      "li-6": "",
+      "li-7": "",
+      "p": ""
+    }
+  },
+  "activities":
+  {
+    "title": "Activities"
+  },
+  "alpha":
+  {
+    "title": "Alpha",
+    "content": "Lorem",
+    "lb": {
+      "title": "Alpha",
+      "subtitle-1": "",
+      "subtitle-2": "",
+      "subtitle-3": "",
+      "p-1": "",
+      "p-2": "",
+      "p-3": "",
+      "p-4": "",
+      "p-5": "",
+      "p-6": ""
+    }
+  },
+  "shelter":
+  {
+    "title": "Shelter",
+    "content": "Lorem",
+    "lb": {
+      "title": "Shelter",
+      "p-1": "",
+      "p-2": ""
+    }
+  },
+  "youth":
+  {
+    "title": "Youth Camp",
+    "content": "Lorem",
+    "lb": {
+      "title": "Youth",
+      "p-1": ""
+    }
+  },
+  "donation": {
+    "title": "Donation",
+    "subtitle-1": "Swiss account",
+    "p-1": "Info1\nInfo2\nInfo3\nInfo4",
+    "subtitle-2": "German account",
+    "p-2": "Info1\nInfo2\nInfo3\nInfo4",
+    "subtitle-3": "Codex",
+    "p-3": ""
+  },
+  "footer":
+  {
+    "title-1": "Swiss office",
+    "title-2": "Bulgarian office",
+    "a-1": "Shelter",
+    "a-2": "Alpha Bulgaria"
+  }
+}

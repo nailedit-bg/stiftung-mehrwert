@@ -23,6 +23,10 @@
   <link rel="manifest" href="assets/images/favicon/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript" src="vendor/javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="vendor/javascripts/URI.js"></script>
+  <script type="text/javascript" src="vendor/javascripts/jquery.localize.js"></script>
 </head>
 
 <body>
@@ -33,12 +37,16 @@
       <div class="content">
         <a data-scroll title="home" href="#home"><img src="assets/images/layout/logo.png"></a>
         <div class="links" data-gumshoe>
-          <a data-scroll title="home" href="#home">Home</a>
-          <a data-scroll title="about" href="#about">Über uns</a>
-          <a data-scroll title="activites" href="#activities">Bereiche</a>
-          <a data-scroll title="donation" href="#donation">Spenden</a>
+          <a data-scroll title="home" href="#home" data-localize="header.home">Home</a>
+          <a data-scroll title="about" href="#about" data-localize="header.about">Über uns</a>
+          <a data-scroll title="activites" href="#activities" data-localize="header.activities">Bereiche</a>
+          <a data-scroll title="donation" href="#donation" data-localize="header.donation">Spenden</a>
         </div>
       </div>
+    </div>
+    <div class="flags">
+      <img data-lang="de" src="assets/images/icons/de.png">
+      <img data-lang="en" src="assets/images/icons/en.png">
     </div>
   </header>
 
@@ -47,58 +55,58 @@
     <!-- Banner -->
     <section id="home">
       <div class="content">
-        <h2>Hauptanliegen und Engagement</h2>
+        <h2 data-localize="home.motto">Hauptanliegen und Engagement</h2>
       </div>
     </section>
 
     <!-- About -->
     <section id="about">
       <div class="content">
-        <h2>Über uns</h2>
-        <p>
+        <h2 data-localize="about.title-1">Über uns</h2>
+        <p data-localize="about.p-1">
           Als Stiftung bündeln wir unsere Kräfte auf die Balkanländer und hier besonders auf den Bau und die Förderung von Lokalkirchen in Bulgarien. Prioritär koordiniert die Stiftung den Aufbau und die Verbreitung von Alpha Kursen in Bulgarien und übersetzt, produziert und verlegt alle Alpha Ressourcen auf Bulgarisch. Zu diesem Zweck wurde im September 2009 die Stiftung Alpha Bulgarien mit Sitz in Gorna Orjachoviza (BG) ins Leben gerufen. Initiativen in den Nachbarländern werden unterstützt.
         </p>
-        <p>
+        <p data-localize="about.p-2">
           Daneben führt und begleitet die Stiftung Projekte in der Kinder-, Teenager- und Jugendarbeit im Zielland. Es ist uns ein Anliegen, in die heranwachsende Generation zu investieren, damit diese aus der Mutlosigkeit und der Lethargie dieses vom Kommunismus geprägten Volks ausbrechen kann und durch den Glauben an Jesus Christus neue Lebensperspektiven gewinnt.
         </p>
-        <p>
+        <p data-localize="about.p-3">
           Soziale Arbeit und diakonische Projekte gehören genauso zu unseren Aufgaben wie Evangelisation, Schulung und die Förderung lokaler Leiter. Als Partner sind wir nicht Projektführende, sondern Mit-Initianten und Förderer, unterstützende Coaches und befristete Finanzgeber.
         </p>
 
-        <h3>Zweck</h3>
-        <p>
+        <h3 data-localize="about.title-2">Zweck</h3>
+        <p data-localize="about.p-4">
           Die stiftung mehrwert verpflichtet sich als private und gemeinnützige Institution, Hilfe gegenüber bedürftigen Menschen, Institutionen und Organisationen in Ländern der zweiten und dritten Welt zu leisten. Dabei bezweckt die Stiftung die Bereitstellung von Hilfs- und Handelsgütern, Finanzen, Personalressourcen sowie Aus- und Weiterbildung mittels gezieltem, transparentem und nachhaltigem Einsatz. Im Mittelpunkt des Engagements stehen der christliche Auftrag der Nächstenliebe und die damit verbundene Hilfe zur Selbsthilfe.
         </p>
 
         <div class="links">
           <!-- Team -->
-          <a class="button lightbox-open" content="team">Unser Team</a>
+          <a class="button lightbox-open" content="team" data-localize="about.team.button">Unser Team</a>
           <!-- Reports -->
-          <a class="button" href="reports.html">Jahresberichte</a>
+          <a class="button" href="reports.html" data-localize="about.reports">Jahresberichte</a>
         </div>
         <!-- Lightbox -->
         <div class="lightbox-wrap" id="team">
           <div class="lightbox">
             <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
             <div class="banner"></div>
-            <h3>Team</h3>
+            <h3 data-localize="about.team.title">Team</h3>
             <div class="lightbox-content">
               <div>
-                <h4>Stiftungsrat</h4>
+                <h4 data-localize="about.team.subtitle-1">Stiftungsrat</h4>
                 <ul>
-                  <li>Pascal Marti, Präsident, Winterthur</li>
-                  <li>Martin Stoessel, Mitglied Stiftungsrat, Zürich</li>
-                  <li>Fritz Dick, Mitglied Stiftungsrat, Thundorf</li>
+                  <li data-localize="about.team.li-1">Pascal Marti, Präsident, Winterthur</li>
+                  <li data-localize="about.team.li-2">Martin Stoessel, Mitglied Stiftungsrat, Zürich</li>
+                  <li data-localize="about.team.li-3">Fritz Dick, Mitglied Stiftungsrat, Thundorf</li>
                 </ul>
 
-                <h4>Team der Mitarbeitenden</h4>
+                <h4 data-localize="about.team.subtitle-2">Team der Mitarbeitenden</h4>
                 <ul>
-                  <li>Pascal Marti, Geschäftsleiter</li>
-                  <li>Peter Blaginov, Leitungsmitglied, Leiter Bulgarien</li>
-                  <li>Thomas Moldovanyi, Finanzen, Administration</li>
-                  <li>Hans-Georg Gerster, Jungschararbeit und soziale Projekte</li>
+                  <li data-localize="about.team.li-4">Pascal Marti, Geschäftsleiter</li>
+                  <li data-localize="about.team.li-5">Peter Blaginov, Leitungsmitglied, Leiter Bulgarien</li>
+                  <li data-localize="about.team.li-6">Thomas Moldovanyi, Finanzen, Administration</li>
+                  <li data-localize="about.team.li-7">Hans-Georg Gerster, Jungschararbeit und soziale Projekte</li>
                 </ul>
-                <p>
+                <p data-localize="about.team.p">
                   Unser Team in Bulgarien besteht aus 5 Angestellten.
                 </p>
               </div>
@@ -112,7 +120,7 @@
     <!-- Activities title -->
     <section id="activities">
       <div class="content">
-        <h2>Bereiche</h2>
+        <h2 data-localize="activities.title">Bereiche</h2>
       </div>
     </section>
 
@@ -123,11 +131,11 @@
         <div>
           <div class="row">
             <div>
-              <h3>Alpha - den Glauben weitergeben</h3>
-              <p>
+              <h3 data-localize="alpha.title">Alpha - den Glauben weitergeben</h3>
+              <p data-localize="alpha.content">
                 Die stiftung mehrwert hat im Jahr 2009 das Tochterunternehmen Stiftung <a href="http://alphabg.org" target="_blank">Alpha Bulgarien</a> mit Sitz in Gorna Orjachoviza, Zentralbulgarien, ins Leben gerufen. Sie bildet das rechtliche Gefäss für den Aufbau, die Verbreitung und die Koordination der Alpha Projekte im Land sowie für das Übersetzen, Verlegen und den Verkauf aller elektronischen und gedruckten Alpha Ressourcen.
               </p>
-              <a class="button lightbox-open" content="alpha">Mehr</a>
+              <a class="button lightbox-open" content="alpha" data-localize="application.more">Mehr</a>
             </div>
             <div class="img"><img src="assets/images/activities/alpha_logo.jpg"></div>
           </div>
@@ -135,28 +143,28 @@
           <div class="lightbox-wrap" id="alpha">
             <div class="lightbox">
               <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
-              <h3>Stiftung Alpha Bulgarien</h3>
+              <h3 data-localize="alpha.lb.title">Stiftung Alpha Bulgarien</h3>
               <div class="lightbox-content">
                 <div>
-                  <p>
+                  <p data-localize="alpha.lb.p-1">
                     Die stiftung mehrwert hat im Jahr 2009 das Tochterunternehmen Stiftung Alpha Bulgarien www.alphabg.org mit Sitz in Gorna Orjachoviza, Zentralbulgarien, ins Leben gerufen. Sie bildet das rechtliche Gefäss für den Aufbau, die Verbreitung und die Koordination der Alpha Projekte im Land sowie für das Übersetzen, Verlegen und den Verkauf aller elektronischen und gedruckten Alpha Ressourcen.
                   </p>
-                  <h4>Vision von Alpha</h4>
-                  <p>
+                  <h4 data-localize="alpha.lb.subtitle-1">Vision von Alpha</h4>
+                  <p data-localize="alpha.lb.p-2">
                     Alpha bietet Kirchen aller Denominationen in über 160 Ländern Ressourcen für die (Re-) Evangelisation sowie Werkzeuge für soziale Hilfestellungen an Personen in schwierigen Lebenssituation. Es werden massgeschneiderte Kursangebote für Soldaten im Kriegsdienst, Häftlinge, frisch verwitwete oder geschiedene Menschen, Ehevorbereitungs-, Beziehungs- und Kindererziehungskurse angeboten, Seminare zum Umgang mit Schulden sowie zu Fragen des fairen Umgangs mit der Umwelt. Angebote für Pensionierte und Geschäftsleute ergänzen das Angebot.
                   </p>
-                  <p>
+                  <p data-localize="alpha.lb.p-3">
                     Alpha arbeitet immer mit lokalen Partnern zusammen. Das Arbeitsmaterial sowie die Bildungsangebote für MitarbeiterInnen richten sich an Kirchen aller Denominationen.
                   </p>
-                  <h4>Schulungen für Gemeinden</h4>
-                  <p>
+                  <h4 data-localize="alpha.lb.subtitle-2">Schulungen für Gemeinden</h4>
+                  <p data-localize="alpha.lb.p-4">
                     Alpha Bulgarien bietet Lokalkirchen Bulgariens und interessierten Gemeinden aus dem benachbarten Ausland Schulungsangebote zur Nutzung der Alpha Ressourcen und zum Start von Alpha Kursen an. Neben gemeindeinternen Seminaren werden regionale Konferenzen auf Allianzebene durchgeführt. Parallel zur Ausbildung kann auf diese Weise die Zusammenarbeit der verschiedenen Kirchen und Denominationen gefördert werden.
                   </p>
-                  <h4>Der Alpha Kurs in der orthodoxen Kirche</h4>
-                  <p>
+                  <h4 data-localize="alpha.lb.subtitle-3">Der Alpha Kurs in der orthodoxen Kirche</h4>
+                  <p data-localize="alpha.lb.p-5">
                     Orthodoxe Kirchen nennen sich die christlichen Kirchen des byzantinischen Ritus, bestehend aus mehreren selbstverwalteten Kirchen, welche jeweils geographische, nationale und kulturelle Spezifika aufweisen, jedoch theologisch vereint sind. Angehörige der orthodoxen Kirchen verstehen sich als Einheit und sprechen daher meist von der Kirche der Orthodoxie im Singular. Die orthodoxen Kirchen bilden mit ca. 225 Millionen Angehörigen die drittgrösste christliche Gemeinschaft der Welt.
                   </p>
-                  <p>
+                  <p data-localize="alpha.lb.p-6">
                     Bulgarien ist sehr stark von der orthodoxen Tradition geprägt. Viele Priester bedauern es, dass sie trotzdem sonntags nur wenige Gottesdienstbesucher in der Kirche sehen. Sie merken, wie sich die Menschen immer mehr vom Glauben entfernen und trauern über den Wertezerfall in der Gesellschaft. Manche von ihnen sehen den Alpha Kurs als ein Instrument, das ihnen ganz praktisch hilft, den christlichen Glauben auf eine verständliche Art und Weise den Menschen von allen sozialen Gruppen und den verschiedenen Altersstufen zu präsentieren. Bereits wurden 2009 und 2010 von der Stiftung Alpha Bulgarien zwei Alpha Konferenzen in Sofia durchgeführt, um Vertreter der orthodoxen Kirche mit dem Alpha Kurs vertraut zu machen. Neben Bulgaren nahmen daran auch Gäste aus Mazedonien, Serbien, Rumänien, Moldawien, Russland und aus dem Libanon teil.
                   </p>
                 </div>
@@ -165,16 +173,16 @@
           </div>
         </div>
 
-        <!-- Shelters -->
+        <!-- Shelter -->
         <div>
           <div class="second row">
             <div class="img"><img src="assets/images/activities/homeless_people.jpg"></div>
             <div>
-              <h3>Zentrum Veränderung - Notunterkunft und Beschäftigungsangebote für Obdachlose</h3>
-              <p>
+              <h3 data-localize="shelter.title">Zentrum Veränderung - Notunterkunft und Beschäftigungsangebote für Obdachlose</h3>
+              <p data-localize="shelter.content">
                 Die Stiftung Mehrwert beliefert Kinder-, Alters- und Behindertenheime sowie Gefängnisse Bulgariens seit dem Jahr 2000 regelmässig mit Mobiliar. Ehemalige, heute erwachsene Heimkinder wie auch Ex-Gefangene finden nur teilweise den Weg in die Gesellschaft.
               </p>
-              <a class="button lightbox-open" content="shelters">Mehr</a>
+              <a class="button lightbox-open" content="shelters" data-localize="application.more">Mehr</a>
             </div>
           </div>
 
@@ -182,13 +190,13 @@
           <div class="lightbox-wrap" id="shelters">
             <div class="lightbox">
               <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
-              <h3>Zentrum Veränderung</h3>
+              <h3 data-localize="shelter.lb.title">Zentrum Veränderung</h3>
               <div class="lightbox-content">
                 <div>
-                  <p>
+                  <p data-localize="shelter.lb.p-1">
                     Die Stiftung Mehrwert beliefert Kinder-, Alters- und Behindertenheime sowie Gefängnisse Bulgariens seit dem Jahr 2000 regelmässig mit Mobiliar. Ehemalige, heute erwachsene Heimkinder wie auch Ex-Gefangene finden nur teilweise den Weg in die Gesellschaft. Einige bleiben stellenlos, manchmal obdachlos und ein Teil gleitet in die Prostitution ab. Wegen des strengen Winters 2011 und 2012 hat die Stiftung Mehrwert in Zusammenarbeit mit der evangelischen Kirche in Gorna Orjachoviza ziemlich spontan eine Notschlafstelle mit 8 Plätzen für diese Zielgruppe eröffnet und zudem tagsüber den Gottesdienstraum als Aufenthaltsraum mit Suppenabgabe bereit gestellt. Die bescheidenen Strukturen waren sofort ausgelastet. Die Nachfrage nach Notschlafplätzen war deutlich grösser als das Angebot.
                   </p>
-                  <p>
+                  <p data-localize="shelter.lb.p-2">
                     Um nachhaltig die Situation der Betroffenen zu verbessern, haben unsere lokalen Partner beschlossen, ein Übergangswohnheim mit 25 Plätzen einzurichten, welches Menschen für 1-2 Jahre aufnehmen kann, Wohnbegleitung anbietet und vor allem auch arbeitsintegrativ tätig sein wird. Stabiles Wohnen schafft erst die Voraussetzung für die Stellensuche und um dann auch im Arbeitsmarkt zu bestehen. Wer eine stabile Stelle hat, kann daraufhin selbstständig leben.
                   </p>
                 </div>
@@ -201,11 +209,11 @@
         <div>
           <div class="row">
             <div>
-              <h3>Jungschar - neue Perspektive für die nächste Generation</h3>
-              <p>
+              <h3 data-localize="youth.title">Jungschar - neue Perspektive für die nächste Generation</h3>
+              <p data-localize="youth.content">
                 Das Campgelände der stiftung mehrwert in Kavlak steht für Aktivitäten von Einheimischen wie auch für Jugendliche aus dem Westen offen. Es finden verschiedene Freizeiten, Kinder-, Teenager- und Jugendlager mit grösseren und kleineren Gruppen statt, unter anderem auch Lager für Waisenkinder. Unser Lagerplatz im ländlichen Kavlak wird für viele zu einem Ort, an dem sie neue Freunde kennenlernen, alte Freundschaften vertiefen und sich für eine Veränderung in ihrem Leben entscheiden.
               </p>
-              <a class="button lightbox-open" content="jungshar">Mehr</a>
+              <a class="button lightbox-open" content="jungshar" data-localize="application.more">Mehr</a>
             </div>
             <div class="img"><img src="assets/images/activities/youth_camp.jpg"></div>
           </div>
@@ -213,10 +221,10 @@
           <div class="lightbox-wrap" id="jungshar">
             <div class="lightbox">
               <a class="close"><img class="lightbox-close" src="assets/images/icons/close.png"></a>
-              <h3>Lorem ipsum</h3>
+              <h3 data-localize="youth.lb.title">Lorem ipsum</h3>
               <div class="lightbox-content">
                 <div>
-                  <p>
+                  <p data-localize="youth.lb.p-1">
                     Lorem ipsum dolorem Ciceronus.
                   </p>
                 </div>
@@ -232,14 +240,14 @@
     <!-- Donation -->
     <section id="donation">
       <div class="content">
-        <h2>Spenden</h2>
+        <h2 data-localize="donation.title">Spenden</h2>
 
         <!-- columns -->
         <div class="columns newline">
           <!-- first column -->
           <div class="column">
-            <h3>Schweizer Konto</h3>
-            <p>
+            <h3 data-localize="donation.subtitle-1">Schweizer Konto</h3>
+            <p data-localize="donation.p-1">
               Raiffeisenbank Mittelthurgau
               8570 Weinfelden
               IBAN	CH20 8138 0000 0078 4230 6
@@ -249,8 +257,8 @@
 
           <!-- second column -->
           <div class="column">
-            <h3>Deutsches Konto</h3>
-            <p>
+            <h3 data-localize="donation.subtitle-2">Deutsches Konto</h3>
+            <p data-localize="donation.p-2">
               HypoVereinsbank Konstanz
               IBAN	DE98 6902 0190 0352 2539 79
               BLZ	690 201 90
@@ -262,8 +270,8 @@
         <div>
           <div class="columns">
             <div>
-              <h3>Ehrenkodex</h3>
-              <p>
+              <h3 data-localize="donation.subtitle-3">Ehrenkodex</h3>
+              <p data-localize="donation.p-3">
                 Die stiftung mehrwert hat den <a href="http://ehrenkodex.ch" target="_blank">Ehrenkodex SEA</a> unterzeichnet. Das Gütesiegel verpflichtet die Unterzeichner zu Transparenz in der Öffentlichkeitsarbeit, zu Lauterkeit in der Rechnungslegung und zu einem verantwortungsvollen Umgang mit Ihrer Spende.
               </p>
             </div>
@@ -282,7 +290,7 @@
       <!-- first column -->
       <div class="column">
         <div>
-          <h5><img src="assets/images/icons/map.png"> Büro Schweiz</h5>
+          <h5><img src="assets/images/icons/map.png"> <span data-localize="footer.title-1">Büro Schweiz</span></h5>
           Zentrum Arche
           Heinrich-Bosshard-Strasse 2
           CH-8405 Winterthur
@@ -293,7 +301,7 @@
       <!-- second column -->
       <div class="column">
         <div>
-          <h5><img src="assets/images/icons/map.png"> Büro Bulgarien</h5>
+          <h5><img src="assets/images/icons/map.png"> <span data-localize="footer.title-2">Büro Bulgarien</span></h5>
           Alpha Bulgaria
           Ivan Vazov 13A
           BG-5100 Gorna Oryahovitsa
@@ -305,15 +313,15 @@
       <div class="column third">
         <div>
           <h5><img src="assets/images/icons/link.png"> Links</h5>
-          <a href="http://promyana.org" target="_blank">Zentrum Veränderung</a>
-          <a href="http://alphabg.org" target="_blank">Alpha Bulgaria</a>
+          <a href="http://promyana.org" target="_blank" data-localize="footer.a-1">Zentrum Veränderung</a>
+          <a href="http://alphabg.org" target="_blank" data-localize="footer.a-2">Alpha Bulgaria</a>
 
           <h5><img src="assets/images/icons/sitemaps.png"> Sitemap</h5>
-          Home
-          Über uns
-          Bereiche
-          Spenden
-          Berichte
+          <span data-localize="header.home">Home</span>
+          <span data-localize="header.about">Über uns</span>
+          <span data-localize="header.activities">Bereiche</span>
+          <span data-localize="header.donation">Spenden</span>
+          <span data-localize="about.reports">Berichte</span>
         </div>
       </div>
     </div>
@@ -322,6 +330,7 @@
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
   <script type="text/javascript" src="vendor/javascripts/gumshoe.min.js"></script>
   <script type="text/javascript" src="assets/javascripts/functions.js"></script>
+  <script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="assets/javascripts/lightbox.js"></script>
   <script type="text/javascript" src="assets/javascripts/header.js"></script>
 </body>
