@@ -35,6 +35,7 @@ header .links a {
   text-decoration: none;
   color: black;
   font-size: 1.2em;
+  border-bottom: 2px solid #ffffff; /* invisible line to reserve the space */
 }
 
 header .links a.active, header .links a:hover {
@@ -86,7 +87,7 @@ header .flags {
   }
 
   header .flags {
-    margin-top: 5px;
+    margin-top: 3px;
   }
 
   header .flags img {
