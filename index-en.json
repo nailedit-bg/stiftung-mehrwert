@@ -11,30 +11,30 @@
   },
   "home":
   {
-    "motto": "Motto"
+    "motto": "Hauptanliegen und Engagement"
   },
   "about":
   {
     "title-1": "About us",
-    "p-1": "Lorem",
-    "p-2": "Lorem",
-    "p-3": "Lorem",
+    "p-1": "Als Stiftung bündeln wir unsere Kräfte auf die Balkanländer und hier besonders auf den Bau und die Förderung von Lokalkirchen in Bulgarien. Prioritär koordiniert die Stiftung den Aufbau und die Verbreitung von Alpha Kursen in Bulgarien und übersetzt, produziert und verlegt alle Alpha Ressourcen auf Bulgarisch. Zu diesem Zweck wurde im September 2009 die Stiftung Alpha Bulgarien mit Sitz in Gorna Orjachoviza (BG) ins Leben gerufen. Initiativen in den Nachbarländern werden unterstützt.",
+    "p-2": "Daneben führt und begleitet die Stiftung Projekte in der Kinder-, Teenager- und Jugendarbeit im Zielland. Es ist uns ein Anliegen, in die heranwachsende Generation zu investieren, damit diese aus der Mutlosigkeit und der Lethargie dieses vom Kommunismus geprägten Volks ausbrechen kann und durch den Glauben an Jesus Christus neue Lebensperspektiven gewinnt.",
+    "p-3": "Soziale Arbeit und diakonische Projekte gehören genauso zu unseren Aufgaben wie Evangelisation, Schulung und die Förderung lokaler Leiter. Als Partner sind wir nicht Projektführende, sondern Mit-Initianten und Förderer, unterstützende Coaches und befristete Finanzgeber.",
     "title-2": "Goals",
-    "p-4": "Lorem",
+    "p-4": "Die stiftung mehrwert verpflichtet sich als private und gemeinnützige Institution, Hilfe gegenüber bedürftigen Menschen, Institutionen und Organisationen in Ländern der zweiten und dritten Welt zu leisten. Dabei bezweckt die Stiftung die Bereitstellung von Hilfs- und Handelsgütern, Finanzen, Personalressourcen sowie Aus- und Weiterbildung mittels gezieltem, transparentem und nachhaltigem Einsatz. Im Mittelpunkt des Engagements stehen der christliche Auftrag der Nächstenliebe und die damit verbundene Hilfe zur Selbsthilfe.",
     "reports": "Reports",
     "team": {
       "button": "Team",
       "title": "Team",
-      "subtitle-1": "Concil",
-      "subtitle-2": "Lorem",
-      "li-1": "",
-      "li-2": "",
-      "li-3": "",
-      "li-4": "",
-      "li-5": "",
-      "li-6": "",
-      "li-7": "",
-      "p": ""
+      "subtitle-1": "Stiftungsrat",
+      "subtitle-2": "Team der Mitarbeitenden",
+      "li-1": "Pascal Marti, Präsident, Winterthur",
+      "li-2": "Martin Stoessel, Mitglied Stiftungsrat, Zürich",
+      "li-3": "Fritz Dick, Mitglied Stiftungsrat, Thundorf",
+      "li-4": "Pascal Marti, Geschäftsleiter",
+      "li-5": "Peter Blaginov, Leitungsmitglied, Leiter Bulgarien",
+      "li-6": "Thomas Moldovanyi, Finanzen, Administration",
+      "li-7": "Hans-Georg Gerster, Jungschararbeit und soziale Projekte",
+      "p": "Unser Team in Bulgarien besteht aus 5 Angestellten."
     }
   },
   "activities":
@@ -44,34 +44,34 @@
   "alpha":
   {
     "title": "Alpha",
-    "content": "Lorem",
+    "content": "Die stiftung mehrwert hat im Jahr 2009 das Tochterunternehmen Stiftung Alpha Bulgarien mit Sitz in Gorna Orjachoviza, Zentralbulgarien, ins Leben gerufen. Sie bildet das rechtliche Gefäss für den Aufbau, die Verbreitung und die Koordination der Alpha Projekte im Land sowie für das Übersetzen, Verlegen und den Verkauf aller elektronischen und gedruckten Alpha Ressourcen.",
     "lb": {
       "title": "Alpha",
-      "subtitle-1": "",
-      "subtitle-2": "",
-      "subtitle-3": "",
-      "p-1": "",
-      "p-2": "",
-      "p-3": "",
-      "p-4": "",
-      "p-5": "",
-      "p-6": ""
+      "subtitle-1": "Vision von Alpha",
+      "subtitle-2": "Schulungen für Gemeinden",
+      "subtitle-3": "Der Alpha Kurs in der orthodoxen Kirche",
+      "p-1": "Die stiftung mehrwert hat im Jahr 2009 das Tochterunternehmen Stiftung Alpha Bulgarien www.alphabg.org mit Sitz in Gorna Orjachoviza, Zentralbulgarien, ins Leben gerufen. Sie bildet das rechtliche Gefäss für den Aufbau, die Verbreitung und die Koordination der Alpha Projekte im Land sowie für das Übersetzen, Verlegen und den Verkauf aller elektronischen und gedruckten Alpha Ressourcen.",
+      "p-2": "Alpha bietet Kirchen aller Denominationen in über 160 Ländern Ressourcen für die (Re-) Evangelisation sowie Werkzeuge für soziale Hilfestellungen an Personen in schwierigen Lebenssituation. Es werden massgeschneiderte Kursangebote für Soldaten im Kriegsdienst, Häftlinge, frisch verwitwete oder geschiedene Menschen, Ehevorbereitungs-, Beziehungs- und Kindererziehungskurse angeboten, Seminare zum Umgang mit Schulden sowie zu Fragen des fairen Umgangs mit der Umwelt. Angebote für Pensionierte und Geschäftsleute ergänzen das Angebot.",
+      "p-3": "Alpha arbeitet immer mit lokalen Partnern zusammen. Das Arbeitsmaterial sowie die Bildungsangebote für MitarbeiterInnen richten sich an Kirchen aller Denominationen.",
+      "p-4": "Alpha Bulgarien bietet Lokalkirchen Bulgariens und interessierten Gemeinden aus dem benachbarten Ausland Schulungsangebote zur Nutzung der Alpha Ressourcen und zum Start von Alpha Kursen an. Neben gemeindeinternen Seminaren werden regionale Konferenzen auf Allianzebene durchgeführt. Parallel zur Ausbildung kann auf diese Weise die Zusammenarbeit der verschiedenen Kirchen und Denominationen gefördert werden.",
+      "p-5": "Orthodoxe Kirchen nennen sich die christlichen Kirchen des byzantinischen Ritus, bestehend aus mehreren selbstverwalteten Kirchen, welche jeweils geographische, nationale und kulturelle Spezifika aufweisen, jedoch theologisch vereint sind. Angehörige der orthodoxen Kirchen verstehen sich als Einheit und sprechen daher meist von der Kirche der Orthodoxie im Singular. Die orthodoxen Kirchen bilden mit ca. 225 Millionen Angehörigen die drittgrösste christliche Gemeinschaft der Welt.",
+      "p-6": "Bulgarien ist sehr stark von der orthodoxen Tradition geprägt. Viele Priester bedauern es, dass sie trotzdem sonntags nur wenige Gottesdienstbesucher in der Kirche sehen. Sie merken, wie sich die Menschen immer mehr vom Glauben entfernen und trauern über den Wertezerfall in der Gesellschaft. Manche von ihnen sehen den Alpha Kurs als ein Instrument, das ihnen ganz praktisch hilft, den christlichen Glauben auf eine verständliche Art und Weise den Menschen von allen sozialen Gruppen und den verschiedenen Altersstufen zu präsentieren. Bereits wurden 2009 und 2010 von der Stiftung Alpha Bulgarien zwei Alpha Konferenzen in Sofia durchgeführt, um Vertreter der orthodoxen Kirche mit dem Alpha Kurs vertraut zu machen. Neben Bulgaren nahmen daran auch Gäste aus Mazedonien, Serbien, Rumänien, Moldawien, Russland und aus dem Libanon teil."
     }
   },
   "shelter":
   {
     "title": "Shelter",
-    "content": "Lorem",
+    "content": "Die Stiftung Mehrwert beliefert Kinder-, Alters- und Behindertenheime sowie Gefängnisse Bulgariens seit dem Jahr 2000 regelmässig mit Mobiliar. Ehemalige, heute erwachsene Heimkinder wie auch Ex-Gefangene finden nur teilweise den Weg in die Gesellschaft.",
     "lb": {
       "title": "Shelter",
-      "p-1": "",
-      "p-2": ""
+      "p-1": "Die Stiftung Mehrwert beliefert Kinder-, Alters- und Behindertenheime sowie Gefängnisse Bulgariens seit dem Jahr 2000 regelmässig mit Mobiliar. Ehemalige, heute erwachsene Heimkinder wie auch Ex-Gefangene finden nur teilweise den Weg in die Gesellschaft. Einige bleiben stellenlos, manchmal obdachlos und ein Teil gleitet in die Prostitution ab. Wegen des strengen Winters 2011 und 2012 hat die Stiftung Mehrwert in Zusammenarbeit mit der evangelischen Kirche in Gorna Orjachoviza ziemlich spontan eine Notschlafstelle mit 8 Plätzen für diese Zielgruppe eröffnet und zudem tagsüber den Gottesdienstraum als Aufenthaltsraum mit Suppenabgabe bereit gestellt. Die bescheidenen Strukturen waren sofort ausgelastet. Die Nachfrage nach Notschlafplätzen war deutlich grösser als das Angebot.",
+      "p-2": "Um nachhaltig die Situation der Betroffenen zu verbessern, haben unsere lokalen Partner beschlossen, ein Übergangswohnheim mit 25 Plätzen einzurichten, welches Menschen für 1-2 Jahre aufnehmen kann, Wohnbegleitung anbietet und vor allem auch arbeitsintegrativ tätig sein wird. Stabiles Wohnen schafft erst die Voraussetzung für die Stellensuche und um dann auch im Arbeitsmarkt zu bestehen. Wer eine stabile Stelle hat, kann daraufhin selbstständig leben."
     }
   },
   "youth":
   {
     "title": "Youth Camp",
-    "content": "Lorem",
+    "content": "Das Campgelände der stiftung mehrwert in Kavlak steht für Aktivitäten von Einheimischen wie auch für Jugendliche aus dem Westen offen. Es finden verschiedene Freizeiten, Kinder-, Teenager- und Jugendlager mit grösseren und kleineren Gruppen statt, unter anderem auch Lager für Waisenkinder. Unser Lagerplatz im ländlichen Kavlak wird für viele zu einem Ort, an dem sie neue Freunde kennenlernen, alte Freundschaften vertiefen und sich für eine Veränderung in ihrem Leben entscheiden.",
     "lb": {
       "title": "Youth",
       "p-1": ""
@@ -84,7 +84,7 @@
     "subtitle-2": "German account",
     "p-2": "Info1\nInfo2\nInfo3\nInfo4",
     "subtitle-3": "Codex",
-    "p-3": ""
+    "p-3": "Die stiftung mehrwert hat den Ehrenkodex SEA unterzeichnet. Das Gütesiegel verpflichtet die Unterzeichner zu Transparenz in der Öffentlichkeitsarbeit, zu Lauterkeit in der Rechnungslegung und zu einem verantwortungsvollen Umgang mit Ihrer Spende."
   },
   "footer":
   {
