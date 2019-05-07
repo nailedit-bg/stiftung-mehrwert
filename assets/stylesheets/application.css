@@ -16,7 +16,10 @@
 @import 'pages/about.css';
 @import 'pages/activities-content.css';
 @import 'pages/activities.css';
+@import 'pages/gallery.css';
 
 @import 'components/lightbox.css';
 @import 'components/button.css';
 @import 'components/grid.css';
+
+@import '../../vendor/stylesheets/lightgallery.css'

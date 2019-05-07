@@ -1,5 +1,7 @@
 footer {
   padding-bottom: 30px;
+  background-color: #e74c3c;
+  color: #fff;
 }
 
 footer .content {
