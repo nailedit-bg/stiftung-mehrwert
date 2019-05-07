@@ -1,14 +1,37 @@
-section#home {
-  background-image: url("../../images/layout/banner.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center bottom;
+section#home .slideshow-container .slide img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+section#home h2 {
+  position: absolute;
   color: #fff;
-  height: 600px;
+  font-size: 2em;
+}
+
+section#home * {
+  box-sizing:border-box
+}
+
+/* Slideshow container */
+section#home .slideshow-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Hide the images by default */
+section#home .slide {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+section#home .numbertext {
+  width: 100%;
+  font-weight: 600;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 1.3em;
+  color: #f2f2f2;
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
 }

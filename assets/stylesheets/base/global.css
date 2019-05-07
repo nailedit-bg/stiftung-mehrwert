@@ -13,12 +13,14 @@ h3 {
   font-family: 'Raleway', Arial, sans-serif;
 }
 
-.content {
-  width: 1000px;
-}
-
 .newline {
   white-space: pre-line;
+}
+
+@media (min-width: 1000px) {
+  .content {
+    width: 1000px;
+  }
 }
 
 @media (max-width: 900px)

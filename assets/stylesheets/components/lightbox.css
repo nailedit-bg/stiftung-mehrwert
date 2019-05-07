@@ -34,6 +34,10 @@
   padding: 0 10px 10px 10px;
 }
 
+.lightbox-wrap .lightbox-content .side-img {
+  float: right;
+}
+
 .lightbox-wrap h3 {
   padding-left: 10px;
   padding-bottom: 10px;
@@ -62,8 +66,3 @@
   cursor: pointer;
 }
 
-.lightbox-wrap .banner {
-  background: url("../../images/layout/team.jpg");
-  background-attachment: cover;
-  height: 375px;
-}

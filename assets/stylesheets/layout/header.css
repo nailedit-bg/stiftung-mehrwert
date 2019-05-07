@@ -11,6 +11,7 @@ header .content {
 }
 
 header {
+  z-index: 10;
   position: fixed;
   width: 100%;
   padding-bottom: 2px;

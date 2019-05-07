@@ -1,17 +1,9 @@
 footer {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-
   padding-bottom: 30px;
 }
 
 footer .content {
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,6 +43,14 @@ footer a {
 
 footer a:hover {
   color: #3e3e3e;
+}
+
+footer div.copyright {
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 @media (max-width: 700px)
