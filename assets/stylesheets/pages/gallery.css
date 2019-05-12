@@ -9,3 +9,10 @@ section#gallery .images {
 section#gallery img {
   margin: 10px;
 }
+
+@media (max-width: 700px) {
+  section#gallery img {
+    height: 100px;
+    margin: 5px;
+  }
+}
