@@ -1,0 +1,8 @@
+section#end {
+  background-image: url("../../images/layout/end.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+  height: 300px;
+}

@@ -1,7 +1,7 @@
 .button{
-    background-color: white;
-    color: #808080;
-    border: 1px solid #808080;
+    background-color: #e74c3c;
+    color: #fff;
+    border: 1px solid #e74c3c;
     padding: 10px 22px;
     text-align: center;
     text-decoration: none;
@@ -13,6 +13,6 @@
 
 }
 .button:hover{
-    background-color: #808080;
+    background-color: #ba3c2f;
     color: white;
 }

@@ -6,6 +6,11 @@ section#about p {
   margin-top: 0;
 }
 
+section#about ul li {
+  padding: 8px 0 8px 0;
+  list-style: square inside url("../../images/icons/bullet.png");
+}
+
 section#about .links {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -22,13 +27,15 @@ section#about .links a {
 }
 
 section#about h2 {
+  color: #e74c3c;
   text-align: center;
+  font-weight: 700;
   float: right;
   margin: 0;
   padding: 0;
   padding-left: 30px;
   padding-bottom: 10px;
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 @media (max-width: 350px)

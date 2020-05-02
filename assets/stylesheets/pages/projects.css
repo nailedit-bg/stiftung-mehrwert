@@ -1,0 +1,14 @@
+section#projects {
+  background-image: url("../../images/layout/projects.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  height: 300px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3em;
+}

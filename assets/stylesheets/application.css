@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
-@import 'https://fonts.googleapis.com/css?family=Raleway:300,400';
+@import 'https://fonts.googleapis.com/css?family=Raleway:300,400,700';
 
 @import 'base/normalize.css';
 @import 'base/reset.css';
@@ -14,12 +14,10 @@
 @import 'pages/donation.css';
 @import 'pages/home.css';
 @import 'pages/about.css';
-@import 'pages/activities-content.css';
-@import 'pages/activities.css';
-@import 'pages/gallery.css';
+@import 'pages/projects-content.css';
+@import 'pages/projects.css';
+@import 'pages/end.css';
 
 @import 'components/lightbox.css';
 @import 'components/button.css';
 @import 'components/grid.css';
-
-@import '../../vendor/stylesheets/lightgallery.css'
