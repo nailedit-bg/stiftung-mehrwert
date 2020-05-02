@@ -1,16 +1,16 @@
-section#projects-content .row {
+section.projects-content .row {
   margin: 30px 5px 30px 5px;
 }
 
-section#projects-content .row > :first-child {
+section.projects-content .row > :first-child {
   margin-right: 30px;
 }
 
-section#projects-content img {
+section.projects-content img {
   border: 1px solid #e74c3c;
 }
 
-section#projects-content p.intro {
+section.projects-content p.intro {
   text-align: center;
   font-size: 1.2em;
   margin: 20px 0 40px 0;
@@ -18,21 +18,21 @@ section#projects-content p.intro {
 
 @media (max-width: 900px)
 {
-  section#projects-content .row {
+  section.projects-content .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
 
-  section#projects-content .second.row {
+  section.projects-content .second.row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
 
-  section#projects-content .img {
+  section.projects-content .img {
     margin-top: 30px;
   }
 }

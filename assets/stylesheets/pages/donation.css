@@ -1,20 +1,20 @@
-section#donation {
+section.donation {
   background-color: #e74c3c;
   color: white;
 }
 
-section#donation a {
+section.donation a {
   color: #BABABA;
 }
 
-section#donation img {
+section.donation img {
   height: 120px;
   padding-left: 20px;
   padding-top: 20px;
 }
 
 
-section#donation .columns {
+section.donation .columns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,20 +24,20 @@ section#donation .columns {
   margin-bottom: 50px;
 }
 
-section#donation .column {
+section.donation .column {
   border: 1px solid white;
   padding: 10px 30px 10px 30px;
   width: 400px;
 }
 
-section#donation .column:hover {
+section.donation .column:hover {
   background-color: #ba3c2f;
 }
 
 
 @media (max-width: 900px)
 {
-  section#donation .columns {
+  section.donation .columns {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -49,7 +49,7 @@ section#donation .column:hover {
   }
 }
 @media (max-width: 500px) {
-  section#donation .column {
+  section.donation .column {
     width: 200px;
   }
 }

@@ -1,4 +1,4 @@
-section#projects {
+section.projects {
   background-image: url("../../images/layout/projects.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -6,7 +6,7 @@ section#projects {
   background-position: center bottom;
   color: #fff;
   height: 300px;
-  text-align: center;
+  text-align: center !important;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

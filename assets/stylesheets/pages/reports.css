@@ -2,7 +2,7 @@ header {
   position: inherit;
 }
 
-section#reports .content div {
+section.reports .content div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,10 +13,10 @@ section#reports .content div {
           justify-content: center;
 }
 
-section#reports h2 {
+section.reports h2 {
   text-align: center;
 }
 
-section#reports a {
+section.reports a {
   margin: 10px;
 }

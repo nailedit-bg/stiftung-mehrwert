@@ -1,17 +1,17 @@
-section#about {
+section.about {
   padding-top: 50px;
 }
 
-section#about p {
+section.about p {
   margin-top: 0;
 }
 
-section#about ul li {
+section.about ul li {
   padding: 8px 0 8px 0;
   list-style: square inside url("../../images/icons/bullet.png");
 }
 
-section#about .links {
+section.about .links {
   margin-top: 30px;
   margin-bottom: 30px;
   display: -webkit-box;
@@ -21,12 +21,12 @@ section#about .links {
       justify-content: space-around;
 }
 
-section#about .links a {
+section.about .links a {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
 }
 
-section#about h2 {
+section.about h2 {
   color: #e74c3c;
   text-align: center;
   font-weight: 700;
@@ -40,14 +40,14 @@ section#about h2 {
 
 @media (max-width: 800px)
 {
-  section#about h2 {
+  section.about h2 {
     padding-left: 15px;
   }
 }
 
 @media (max-width: 400px)
 {
-  section#about h2 {
+  section.about h2 {
     padding-left: 0;
     float: none;
     font-size: 2.5em;

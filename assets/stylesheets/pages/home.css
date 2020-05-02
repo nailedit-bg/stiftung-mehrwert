@@ -1,33 +1,33 @@
-section#home .slideshow-container .slide img {
+section.home .slideshow-container .slide img {
   width: 100%;
   height: 450px;
   object-fit: cover;
 }
 
-section#home h2 {
+section.home h2 {
   position: absolute;
   color: #fff;
   font-size: 2.2em;
   text-align: center;
 }
 
-section#home * {
+section.home * {
   box-sizing:border-box
 }
 
 /* Slideshow container */
-section#home .slideshow-container {
+section.home .slideshow-container {
   position: relative;
   width: 100%;
 }
 
 /* Hide the images by default */
-section#home .slide {
+section.home .slide {
   display: none;
 }
 
 /* Number text (1/3 etc) */
-section#home .numbertext {
+section.home .numbertext {
   width: 100%;
   font-weight: 600;
   text-align: center;
