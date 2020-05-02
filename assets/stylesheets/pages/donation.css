@@ -30,6 +30,10 @@ section#donation .column {
   width: 400px;
 }
 
+section#donation .column:hover {
+  background-color: #ba3c2f;
+}
+
 
 @media (max-width: 900px)
 {
