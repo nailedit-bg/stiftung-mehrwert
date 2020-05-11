@@ -1,0 +1,13 @@
+#partners a {
+  color: #000;
+  text-decoration: none;
+}
+
+#partners a:hover {
+  color: #e74c3c;
+}
+
+
+#partners ul li {
+  padding: 10px;
+}
